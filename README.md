@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
 <img src="https://img.shields.io/github/stars/Amaral1973/progmobile?style=social"/>
 </p>
-Arquivos do Curso de Programação Mobile. Arquivos contendo os scripts, e slides das aulas, dividido por aulas.
+Arquivos do Curso de Programação Mobile. Arquivos contendo os scripts, e slides das aulas, dividido por categorias e aulas.
 
 <p><h3>Índice</h3></p>
 1. Lógica de Programação<br/>
