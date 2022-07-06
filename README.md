@@ -2,6 +2,10 @@
 <h2 align"center">Curso de Programação Mobile</h1>
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+<img src="https://img.shields.io/github/stars/Amaral1973/progmobile?style=social"/>
 </p>
 Arquivos do Curso de Programação Mobile. Arquivos contendo os scripts, e slides das aulas, dividido por aulas.
 
