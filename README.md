@@ -13,3 +13,4 @@ Arquivos do Curso de Programação Mobile. Arquivos contendo os scripts, e slide
 1. Lógica de Programação<br/>
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/logica_programacao/Aula%201">Aula 1</a><br/>
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/logica_programacao/Aula%202">Aula 2</a><br/>
+  - <a href="https://github.com/Amaral1973/progmobile/tree/main/logica_programacao/Aula%203">Aula 3</a><br/>
