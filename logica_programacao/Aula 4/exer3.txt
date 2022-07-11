@@ -1,0 +1,13 @@
+Console.WriteLine("Informe o seu salario, use ponto:");
+double salario = Convert.ToDouble(Console.ReadLine());
+if (salario >= 1700)
+{
+    double novosalario = (salario + 200);
+    Console.WriteLine("Seu novo salário é:" + novosalario);
+}
+else
+{
+    double novosalario = (salario + 300);
+    Console.WriteLine("Seu novo salário é:" + novosalario);
+}
+Console.ReadKey();
