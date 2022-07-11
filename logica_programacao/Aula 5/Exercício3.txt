@@ -1,0 +1,27 @@
+Console.WriteLine("Exercício 3 - Maior");
+int number1, number2, number3;
+string result;
+
+Console.Write("Insira o 1º número:");
+number1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Insira o 2º número:");
+number2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Insira o 3º número:");
+number3 = Convert.ToInt32(Console.ReadLine());
+
+if (number1 > number2 && number1 > number3)
+{
+    result = "O 1º número é o maior dos três!!!! \n";
+}
+else if (number2 > number1 && number2 > number3)
+{
+    result = "O 2º número é o maior dos três!!!! \n";
+}
+else
+{
+    result = "O 3º número é o maior dos três!!!! \n";
+}
+
+Console.WriteLine(result);
+
+Console.ReadLine();
