@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+
+namespace AppExerc1
+{
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+
+        private void btn1_Clicked(object sender, EventArgs e)
+        {
+            Button bt = (Button)sender;
+            bt.Text = "Mudei...";
+            img1.Source = "sonic2";
+        }
+
+        private void btn2_Clicked(object sender, EventArgs e)
+        {
+            Button bt = (Button)sender;
+            bt.Text = "Mudei de novo...";
+            img2.Source = "sonic3";
+        }
+
+        private void btn3_Clicked(object sender, EventArgs e)
+        {
+            Button bt = (Button)sender;
+            bt.Text = "Voltei...";
+            img1.Source = "sonic1";
+        }
+
+        private void btn4_Clicked(object sender, EventArgs e)
+        {
+            Button bt = (Button)sender;
+            bt.Text = "Voltei também...";
+            img2.Source = "sonic1";
+        }
+    }
+}

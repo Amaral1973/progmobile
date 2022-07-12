@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppExerc1.MainPage" Title="Exercício 01 - Aula 1">
+
+    <ScrollView>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="20" CornerRadius="0">
+                <Label Text="Exercício 01" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Image Source="sonic1" HorizontalOptions="Center" Aspect="AspectFill" x:Name="img1" Margin="10" WidthRequest="340" HeightRequest="340"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="Vai!!!!" BackgroundColor="White" FontAttributes="Bold" x:Name="btn1" Clicked="btn1_Clicked" Margin="10"/>
+                <Button Text="Volta!!!!" BackgroundColor="White" FontAttributes="Bold" x:Name="btn3" Clicked="btn3_Clicked" Margin="10"/>
+            </StackLayout>
+            <Image Source="sonic1" HorizontalOptions="Center" Aspect="AspectFill" x:Name="img2" Margin="10" WidthRequest="340" HeightRequest="340"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="Vai!!!!" BackgroundColor="White" FontAttributes="Bold" x:Name="btn2" Clicked="btn2_Clicked" Margin="10"/>
+                <Button Text="Volta!!!!" BackgroundColor="White" FontAttributes="Bold" x:Name="btn4" Clicked="btn4_Clicked" Margin="10"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
