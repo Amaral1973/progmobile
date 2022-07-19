@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGeoCamera.MainPage" Title="Geocamera">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="15" CornerRadius="0">
+            <Label Text="GeoCamera" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" FontAttributes="Bold"/>
+        </Frame>
+        <Button Text="Pegar uma Foto" x:Name="btPegarFoto" BackgroundColor="#2196F3" FontAttributes="Bold" TextColor="White" Clicked="btPegarFoto_Clicked"/>
+        <Button Text="Tirar uma Foto" x:Name="btTirarFoto" BackgroundColor="#2196F3" FontAttributes="Bold" TextColor="White" Clicked="btTirarFoto_Clicked"/>
+        <Image x:Name="resultImage" WidthRequest="450" HeightRequest="450" Margin="0,20,0,20" Source="geocamera"/>
+        <Button Text="Ver mapa" x:Name="btMapa" BackgroundColor="#2196F3" FontAttributes="Bold" TextColor="White" Clicked="btMapa_Clicked"/>
+        <Button Text="Fechar" x:Name="btSair" BackgroundColor="Red" FontAttributes="Bold" TextColor="White" Clicked="btSair_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

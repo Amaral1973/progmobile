@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+using Xamarin.Essentials;
+
+namespace AppGeoCamera
+{
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+
+        async void btPegarFoto_Clicked(object sender, EventArgs e)
+        {
+            var result = await MediaPicker.PickPhotoAsync(new MediaPickerOptions
+            {
+                Title = "Por favor escolha uma foto"
+            });
+            if (result != null)
+            {
+                var stream = await result.OpenReadAsync();
+                resultImage.Source = ImageSource.FromStream(() => stream);
+            }
+        }
+
+        async void btTirarFoto_Clicked(object sender, EventArgs e)
+        {
+            var result = await MediaPicker.CapturePhotoAsync();
+            if (result != null)
+            {
+                var stream = await result.OpenReadAsync();
+                resultImage.Source = ImageSource.FromStream(() => stream);
+            }
+        }
+
+        public async Task MostrarMapa()
+        {
+            var location = await Geolocation.GetLastKnownLocationAsync();
+            var locationinfo = new Location(location.Latitude, location.Longitude);
+            var options = new MapLaunchOptions { Name = "Local da Foto...." };
+            await Map.OpenAsync(locationinfo, options);
+        }
+
+        private async void btMapa_Clicked(object sender, EventArgs e)
+        {
+            await MostrarMapa();
+        }
+
+        private void btSair_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.GetCurrentProcess().Kill();
+            }
+            catch
+            {
+
+            }
+        }
+    }
+}
