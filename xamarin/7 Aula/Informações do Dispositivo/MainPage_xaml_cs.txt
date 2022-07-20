@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+using Plugin.DeviceInfo;
+
+namespace AppDeviceInfo
+{
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+            DeviceName.Text = "Nome do Dispositivo:" + CrossDeviceInfo.Current.DeviceName;
+            Id.Text = "Id:" + CrossDeviceInfo.Current.Id;
+            Manufacturer.Text = "Fabricante:" + CrossDeviceInfo.Current.Manufacturer;
+            Model.Text = "Modelo:" + CrossDeviceInfo.Current.Model;
+            Version.Text = "Versão:" + CrossDeviceInfo.Current.Version;
+            Platform.Text = "Plataforma:" + CrossDeviceInfo.Current.Platform.ToString();
+        }
+    }
+}

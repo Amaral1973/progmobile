@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+using Microcharts;
+using SkiaSharp;
+using Entry = Microcharts.ChartEntry;
+
+namespace AppGraficos
+{
+    public partial class MainPage : ContentPage
+    {
+        List<Entry> entradas = new List<Entry>
+        {
+            new Entry(200)
+            {
+                Color=SKColor.Parse("#FF1943"),
+                Label ="Janeiro",
+                ValueLabel = "200"
+            },
+            new Entry(400)
+            {
+                Color = SKColor.Parse("00BFFF"),
+                Label = "Abril",
+                ValueLabel = "400"
+            },
+            new Entry(-80)
+            {
+                Color =  SKColor.Parse("#00CED1"),
+                Label = "Setembro",
+                ValueLabel = "-80"
+            },
+            new Entry(-200)
+            {
+                Color =  SKColor.Parse("#00CED1"),
+                Label = "Novembro",
+                ValueLabel = "-200"
+            },
+         };
+
+        public MainPage()
+        {
+            InitializeComponent();
+            Grafico1.Chart = new RadialGaugeChart() { Entries = entradas };
+            Grafico2.Chart = new LineChart() { Entries = entradas };
+            Grafico3.Chart = new DonutChart() { Entries = entradas };
+            Grafico4.Chart = new BarChart() { Entries = entradas };
+            Grafico5.Chart = new PointChart() { Entries = entradas };
+        }
+    }
+}
