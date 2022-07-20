@@ -25,3 +25,4 @@ Arquivos do Curso de Programação Mobile. Arquivos contendo os scripts, e slide
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/4%20Aula">Aula 4</a><br/>
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/5%20Aula">Aula 5</a><br/>
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/6%20Aula">Aula 6</a><br/>
+  - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/7%20Aula">Aula 7</a><br/>
