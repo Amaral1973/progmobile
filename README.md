@@ -27,5 +27,11 @@ Arquivos do Curso de Programação Mobile. Arquivos contendo os scripts, e slide
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/6%20Aula">Aula 6</a><br/>
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/7%20Aula">Aula 7</a><br/>
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/8%20Aula">Aula 8</a><br/>
+  
+<br/>
+3. Sites de referência<br/>
+ - <a href="https://www.youtube.com/watch?v=TFljDFtgTZE">Configurando o Xamarin</a><br/>
+ - <a href="https://devblogs.microsoft.com/xamarin/">Xamarin Blog</a><br/>
+ - <a href="https://julianocustodio.com.br/category/xamarin/">Xamarin - Juliano Custódio</a><br/>
 
 :skull::no_entry:<h3>OBS.: Este repositório ficará público até o dia 10/08/2022.</h3>:skull::no_entry:
