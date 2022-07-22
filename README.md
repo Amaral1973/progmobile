@@ -28,4 +28,4 @@ Arquivos do Curso de Programação Mobile. Arquivos contendo os scripts, e slide
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/7%20Aula">Aula 7</a><br/>
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/8%20Aula">Aula 8</a><br/>
 
-:no_entry:<b>OBS.: Este repositório ficará público até o dia 10/08/2022.</b>:no_entry:
+:no_entry::skull::skull:<h3>OBS.: Este repositório ficará público até o dia 10/08/2022.</h3>:skull::no_entry:
